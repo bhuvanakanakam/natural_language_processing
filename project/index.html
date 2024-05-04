@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Classification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">  <header>  <h1>Comment Classification</h1>
+        </header>
+        <div class="content">  <textarea id="comment" placeholder="Enter your comment here..."></textarea>
+            <br>
+            <select id="language">
+                <option value="en">Choose the language</option>
+                <option value="en">Hindi</option>
+                <option value="en">Telugu</option>
+                <option value="en">Tamil</option>
+                <option value="en">Malyalam</option>
+                <option value="en">Kannada</option>
+            </select>
+            <br>
+            <button id="submit">Classify</button>
+        </div>
+        <div id="result" class="hidden">  <h2>Result:</h2>
+            <p id="classification"></p>
+            <p id="explanation"></p>
+            <p id="alternatives"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
