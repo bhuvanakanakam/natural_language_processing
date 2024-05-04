@@ -1,14 +1,22 @@
-function classifyComment() {
-  var commentInput = document.getElementById("commentInput").value;
-  var languageSelect = document.getElementById("languageSelect").value;
+document.getElementById('submit').addEventListener('click', function() {
+  var comment = document.getElementById('comment').value;
+  var language = document.getElementById('language').value;
 
-  // Send comment and language to backend for classification
-  // Replace the following code with actual API call
-  var toxicityScore = Math.random(); // Dummy score for demonstration
-  updateToxicBar(toxicityScore);
-}
+  // Replace this part with actual classification logic
+  var classification = Math.random() < 0.5 ? 'Toxic' : 'Non-toxic';
+  var progressWidth = classification === 'Toxic' ? '100%' : '0%';
 
-function updateToxicBar(score) {
-  var toxicBarFill = document.getElementById("toxicBarFill");
-  toxicBarFill.style.width = (score * 100) + "%";
-}
+  document.getElementById('classification').textContent = 'Classification: ' + classification;
+  document.getElementById('progress-bar-fill').style.width = progressWidth;
+
+  // Show the result section
+  document.getElementById('result').classList.remove('hidden');
+});
+
+document.getElementById('clear').addEventListener('click', function() {
+  // Clear the text area
+  document.getElementById('comment').value = '';
+
+  // Hide the result section
+  document.getElementById('result').classList.add('hidden');
+});
