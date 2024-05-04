@@ -16,5 +16,5 @@ Multilingual abuse detection dataset - MACD, from - ShareChat, which supports ov
 
 
 
-- website base layout made by bhuvana.
+- website base layout 
 
