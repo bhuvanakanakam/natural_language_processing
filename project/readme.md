@@ -49,7 +49,7 @@ To make our model accessible, we developed a simple web interface using HTML and
 This project demonstrates the effectiveness of BERT in handling text classification tasks for languages with complex scripts like Hindi. By leveraging modern NLP tools and a robust model, we can significantly enhance the moderation of online platforms.
 
 ## Download the Dataset
-To download the dataset used in this project, please send your request to the email [ToxicCommentDataset@gmail.com](mailto:ToxicCommentDataset@gmail.com). A download link will be sent to you once the dataset is released.
+You can access the dataset used in this project from the following GitHub link: [MACD Dataset](https://github.com/topics/macd-indicator).
 
 ## Contact Us
 For more details about this project, please reach out to us at [se21ucse035@mahindrauniversity.edu.in](mailto:se21ucse035@mahindrauniversity.edu.in).
